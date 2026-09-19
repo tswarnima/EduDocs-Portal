@@ -23,9 +23,6 @@ Deployment
 - Database: MongoDB Atlas
 
 Author
--Vidushi Sinha
--Anshika Agarwal
--Amrita Rai
 -Swarnima Tripathi
--Kanisha Yadav
+
   
