@@ -1,0 +1,62 @@
+.trackContainer {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.trackContainer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.trackForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.statusCard {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #f8fafc;
+    border-left: 5px solid #2563eb;
+}
+
+.statusCard h2 {
+    margin-bottom: 20px;
+    color: #2563eb;
+}
+
+.statusCard p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.error{
+    margin-top: 20px;
+    text-align: center;
+    color:#dc2626;
+    font-weight: 600;
+}
+
+.approved{
+    color:#16a34a;
+    font-weight: bold;
+}
+.pending{
+    color: #f59e0b;
+    font-weight: bold;
+}
+.rejected{
+    color:#dc2626;
+    font-weight: bold;
+}

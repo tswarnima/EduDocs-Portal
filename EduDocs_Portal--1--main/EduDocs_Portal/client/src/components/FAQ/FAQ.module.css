@@ -1,0 +1,30 @@
+.FAQ {
+    padding: 80px 20px;
+    text-align: center;
+
+  
+}
+
+.faqs {
+    
+    max-width: 900px;
+    margin: 40px auto 0;
+    
+
+}
+
+.FAQ h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1f2937;
+
+    
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #6b7280;
+    margin-bottom: 50px;
+   
+}

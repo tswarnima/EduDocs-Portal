@@ -1,0 +1,79 @@
+.dashboard {
+    padding: 60px 10%;
+    min-height: 80vh;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin: 10px 0 40px;
+}
+
+.statsRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.statCard {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.statCard span {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.statCard strong {
+    font-size: 1.5rem;
+    color: #111827;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.recentSection {
+    margin-top: 40px;
+}
+
+.recentSection h2 {
+    margin-bottom: 16px;
+}
+
+.recentSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recentSection li {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.error {
+    color: #dc2626;
+}
+
+@media (max-width:768px) {
+    .statsRow,
+    .cardContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .recentSection li {
+        grid-template-columns: 1fr;
+    }
+}

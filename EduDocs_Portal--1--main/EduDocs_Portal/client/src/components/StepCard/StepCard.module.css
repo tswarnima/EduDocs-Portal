@@ -1,0 +1,42 @@
+.stepCard {
+    flex:1;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ;
+    min-height: 280px;
+}
+
+.stepCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stepNumber {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2563eb;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 20px;
+}
+.stepCard h3{
+    font-size:1.2rem ;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    color: #1f2937;
+}
+.stepCard p{
+    font-size: 1rem;
+    color: #6b7280;
+    line-height: 1.5;
+}

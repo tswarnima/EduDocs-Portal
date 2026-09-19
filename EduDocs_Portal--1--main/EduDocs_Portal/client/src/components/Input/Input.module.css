@@ -1,0 +1,60 @@
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.inputGroup label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 14px 45px 14px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.inputGroup input:focus {
+    border-color: #2563eb;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.eyeButton {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    color: #6b7280;
+}
+
+.eyeButton:hover {
+    color: #2563eb;
+}
+
+.inputGroup input:disabled {
+    background: #f3f4f6;
+    color: #6b7280;
+    cursor: not-allowed;
+}

@@ -1,0 +1,30 @@
+.profileContainer {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profileContainer h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profileForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #15803d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}

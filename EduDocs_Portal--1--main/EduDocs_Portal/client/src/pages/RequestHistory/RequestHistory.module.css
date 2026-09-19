@@ -1,0 +1,74 @@
+.historyContainer {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.historyContainer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.historyTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.historyTable th,
+.historyTable td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.historyTable th {
+    background: #2563eb;
+    color: white;
+}
+
+.historyTable tr:hover {
+    background: #f8fafc;
+}
+
+.status {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.approved {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.pending {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.rejected {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.empty {
+    text-align: center;
+    color: #6b7280;
+    margin-top: 20px;
+}

@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "fullName": "Test User",
+      "email": "test@example.com",
+      "studentId": "22CS100",
+      "password": "pass123",
+      "isActive": true,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-07-26T12:00:00.000Z"
+    },
+    {
+      "fullName": "gss",
+      "email": "bnbfnfj12199@gmail.com",
+      "studentId": "dwscfwf",
+      "password": "12345",
+      "isActive": true,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-07-26T12:10:00.000Z"
+    },
+    {
+      "fullName": "Anshika Agarwal",
+      "email": "agarwalanshika321@gmail.com",
+      "studentId": "12345",
+      "password": "1911anshika**",
+      "isActive": true,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-07-27T06:47:14.073Z"
+    },
+    {
+      "fullName": "abcvs",
+      "email": "dddddd@gmail.com",
+      "studentId": "uhfwufwe",
+      "password": "123456",
+      "isActive": true,
+      "resetPasswordToken": null,
+      "resetPasswordExpires": null,
+      "createdAt": "2026-07-27T07:33:31.112Z"
+    }
+  ],
+  "profiles": [
+    {
+      "studentId": "22CS100",
+      "name": "Test User",
+      "email": "test@example.com",
+      "department": "",
+      "semester": "",
+      "phone": ""
+    },
+    {
+      "studentId": "dwscfwf",
+      "name": "gss",
+      "email": "bnbfnfj12199@gmail.com",
+      "department": "",
+      "semester": "FIFTH",
+      "phone": ""
+    },
+    {
+      "studentId": "12345",
+      "name": "Anshika Agarwal",
+      "email": "agarwalanshika321@gmail.com",
+      "department": "IT",
+      "semester": "6",
+      "phone": "9580790232"
+    },
+    {
+      "studentId": "uhfwufwe",
+      "name": "abcvs",
+      "email": "dddddd@gmail.com",
+      "department": "",
+      "semester": "",
+      "phone": ""
+    }
+  ],
+  "requests": [
+    {
+      "requestId": "DOC001",
+      "studentId": "22CS100",
+      "document": "Bonafide Certificate",
+      "documentType": "Bonafide Certificate",
+      "semester": "Semester 7",
+      "purpose": "Internship",
+      "notes": "Urgent",
+      "status": "Pending",
+      "date": "26 Jul 2026",
+      "submittedOn": "26 Jul 2026",
+      "expectedDelivery": "29 Jul 2026",
+      "createdAt": "2026-07-26T12:21:33.149Z"
+    },
+    {
+      "requestId": "DOC002",
+      "studentId": "dwscfwf",
+      "document": "Bonafide Certificate",
+      "documentType": "Bonafide Certificate",
+      "semester": "Semester 1",
+      "purpose": "gs",
+      "notes": "gwgw",
+      "status": "Pending",
+      "date": "26 Jul 2026",
+      "submittedOn": "26 Jul 2026",
+      "expectedDelivery": "29 Jul 2026",
+      "createdAt": "2026-07-26T12:27:39.684Z"
+    },
+    {
+      "requestId": "DOC003",
+      "studentId": "dwscfwf",
+      "document": "Bonafide Certificate",
+      "documentType": "Bonafide Certificate",
+      "semester": "Semester 2",
+      "purpose": "dedsd",
+      "notes": "ddd",
+      "status": "Pending",
+      "date": "26 Jul 2026",
+      "submittedOn": "26 Jul 2026",
+      "expectedDelivery": "29 Jul 2026",
+      "createdAt": "2026-07-26T12:28:29.108Z"
+    },
+    {
+      "requestId": "DOC004",
+      "studentId": "12345",
+      "document": "Migration Certificate",
+      "documentType": "Migration Certificate",
+      "semester": "Semester 6",
+      "purpose": "to verify",
+      "notes": "no",
+      "status": "Pending",
+      "date": "27 Jul 2026",
+      "submittedOn": "27 Jul 2026",
+      "expectedDelivery": "30 Jul 2026",
+      "createdAt": "2026-07-27T06:48:09.201Z"
+    },
+    {
+      "requestId": "DOC005",
+      "studentId": "uhfwufwe",
+      "document": "Bonafide Certificate",
+      "documentType": "Bonafide Certificate",
+      "semester": "Semester 1",
+      "purpose": "xcscs",
+      "notes": "acq",
+      "status": "Approved",
+      "date": "27 Jul 2026",
+      "submittedOn": "27 Jul 2026",
+      "expectedDelivery": "30 Jul 2026",
+      "createdAt": "2026-07-27T07:34:13.436Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-1",
+      "fullName": "Portal Admin",
+      "email": "admin@edudocs.edu",
+      "password": "Admin@123"
+    }
+  ]
+}
